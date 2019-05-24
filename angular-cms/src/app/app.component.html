@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Routing and Navigation
+  </h1>
+</div>
+
+<div>
+  <ul class="nav">
+    <li>Home</li>
+    <li><a router-link="departments">Department-List</a></li>
+    <li><a router-link="employees">Employee-List</a></li>
+  </ul>
+</div>
+
+
+<style>
+  .nav li{
+    display: inline;
+    padding-right: 10px;
+    text-decoration: black;
+    border-left-color: blue;
+  }
+</style>
+
+<router-outlet></router-outlet>
+<!-- router view goes here-->
